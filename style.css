@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    font-family: 'PT serif', sans-serif;
+    font-size: 1rem;
+}
+header{
+    min-height: 100vh;
+    background: rgb(255, 249, 254);
+}
+nav{
+    background-color: rgba(240, 248, 255);
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    color:grey;
+}
+nav li{
+    color:grey;
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom:0;
+}
+nav ul{
+    padding-left: 1.25rem;
+}
+header main{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+header img{
+    width: 50%;
+}
+header h1{
+    letterspacing: 4px;
+}
+
+.about-me{
+    background-color: azure;
+    padding: 3rem 1rem;
+}
+.about-me-body{
+    width: 50%;
+    margin: 0 auto;
+}
+.projects h2{
+    width: 50%;
+    margin: 1rem auto;
+    background-color: white;
+}
+.projects img{
+    width:30%;
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
